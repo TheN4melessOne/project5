@@ -6,10 +6,8 @@ body {
  background-size: cover;
   font-family: "roboto", sans-serif;
   font-size: 16px;
-  background-color: #f2f2f2;
   color: #374151;
   margin: 0;
-  color: #fff;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -44,21 +42,49 @@ body {
   .main::-webkit-scrollbar {
     width: 0;
   }
+  .sidebar::-webkit-scrollbar {
+    width: 0;
+  }
   .main__block{
     background-color: #60cdd3;
-    min-height: 40%;
-    padding: 5px;
+    min-height: 50%;
+    padding-left: 0px;
     margin: 5px;
+    border-radius: 8px;
+    background-image: url("block-background.jpg");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
   .sidebar__block{
-    background-color: #7dbc5d;
+    color:  #374151;
+    background-color:  #ececec;
+    min-height: 5%;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  .text{
+    line-height: 120%;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;  
+  }
+  .ul{
+    list-style-type: none;
   }
   .sidebar{
-    background-color: #975959;
     float: right;
     width: 20%;
+    height: 170px;
     padding: 5px;
     margin: 10px 10px 20px 5rem;
+    overflow-x: auto;
+    border-radius: 8px;
+    background-image: url("block-background.jpg");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
 
   .a {
@@ -66,6 +92,10 @@ body {
     text-decoration: none;
     padding: 2px 1px 0;
     
+  }
+  .sidebar_a {
+    outline: none;
+    text-decoration: none;
   }
   a:link {
     color: #374151;
@@ -81,7 +111,6 @@ body {
   }
   
   a:active {
-
     color: #e85b24;
   }
   .header__button{
@@ -108,5 +137,5 @@ body {
   justify-content: center;
   padding: 5px;
   background-color: #811808;
-  color: #f9f9f9;
+  color: #ececec;
 }

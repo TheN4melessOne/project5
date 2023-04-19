@@ -1,0 +1,16 @@
+    <div class="wrapper"style="--wrapper-width: 720px">
+        <div class="wrapper"style="--wrapper-width: 720px">
+            ghgurhgurht
+        </div>
+    </div>
+.wrapper {
+    height: 100%;
+    width: 80%;
+    max-width: var(--wrapper-width, 1600px);
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: #941919;
+  }
